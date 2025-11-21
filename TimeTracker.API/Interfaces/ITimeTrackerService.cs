@@ -8,6 +8,6 @@ namespace TimeTracker.API.Interfaces
         TimeResult Stop();
         (bool IsRunning, DateTime? StartedAt) GetStatus();
         int GetTotalMinutes();
-        List<int> GetAllSessions();
+        void Reset();
     }
 }
