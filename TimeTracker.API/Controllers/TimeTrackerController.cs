@@ -55,11 +55,11 @@ namespace TimeTracker.API.Controllers
             return Ok(new { totalMinutes = total });
         }
 
-        [HttpGet("history")]
-        public IActionResult GetHistory()
+        [HttpPost("reset")]
+        public IActionResult Reset()
         {
-            var sessions = _service.GetAllSessions();
-            return Ok(sessions);
+            _service.Reset();
+            return Ok(new { message = "Timer and total time reset." });
         }
     }
 }

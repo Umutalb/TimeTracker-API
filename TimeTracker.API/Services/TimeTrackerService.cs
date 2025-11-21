@@ -52,11 +52,6 @@ namespace TimeTracker.API.Services
             return _sessionMinutes.Sum();
         }
 
-        
-        public List<int> GetAllSessions()
-        {
-            return _sessionMinutes;
-        }
 
         private string GenerateComment(int minutes)
         {
