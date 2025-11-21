@@ -52,6 +52,11 @@ namespace TimeTracker.API.Services
             return _sessionMinutes.Sum();
         }
 
+        public void Reset()
+        {
+            _startTime = null;        
+            _sessionMinutes.Clear();          
+        }
 
         private string GenerateComment(int minutes)
         {
