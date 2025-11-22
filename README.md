@@ -40,3 +40,6 @@ https://github.com/Umutalb/TimeTracker---Frontend
 - **Dependency Injection**
 - **Heroku Deployment**
 - **Controller → Service → Interface architecture**
+
+📄 License
+MIT License (see LICENSE.md)
