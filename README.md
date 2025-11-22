@@ -22,12 +22,12 @@ Perfect for demos, tutorials, and backend fundamentals.
 ## 🌐 Live Demo (Frontend)
 You can test the API live through the deployed frontend:
 
-👉 **https://umutalb.github.io/TimeTracker---Frontend/**
+👉 **https://umutalb.github.io/TimeTracker-Frontend/**
 
 ---
 
 ## 🔗 Frontend Repository:
-https://github.com/Umutalb/TimeTracker---Frontend
+https://github.com/Umutalb/TimeTracker-Frontend
 
 
 ---
